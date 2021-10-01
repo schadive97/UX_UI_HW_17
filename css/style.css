@@ -1,0 +1,15 @@
+.navbar {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+
+element {
+    width: 73%;
+    margin-left: auto;
+}
+
