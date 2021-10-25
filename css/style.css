@@ -1,15 +1,37 @@
-.navbar {
-    display: inline-block;
-    vertical-align: top;
+.navBar {
+    display: grid;
+    vertical-align: text-top;
+    grid-template-columns: 8fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    height: 20%;
 }
 
-.logo {
-    width: 23%;
+#navBar {
+    width: 73%;
     padding: 1%;
 }
-
-element {
-    width: 73%;
-    margin-left: auto;
+.logoImg {
+    height: 20vh;
+    width: auto
 }
 
+.Welcome {
+    font-size: medium;
+}
+
+.heroImg {
+    height: 20vh;
+    width: auto;
+    align-items:center
+
+}
+
+.footer {
+    background-color: #373738;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    vertical-align: text-top;
+    align-items: center;
+    color:white;
+    height: 20%;
+}
